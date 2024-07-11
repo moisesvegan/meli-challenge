@@ -1,0 +1,132 @@
+.meli-centered {
+  margin: 64px auto;
+  width: 100%;
+}
+
+.body-content {
+  padding: $spacing-48;
+}
+
+.product-card{
+  display: flex;
+  flex-direction: row;
+}
+
+.breadcrumb {
+  position: relative;
+  float: left;
+  padding: $spacing-16 0;
+  color: $meli-gray;
+
+  &__anchor {
+    padding: 7px;
+  }
+}
+
+.product-body {
+  display: inline-flex;
+}
+
+.product-image {
+  position: relative;
+
+}
+
+.product-resume {
+  padding: $spacing-32;
+}
+
+.product-resume p small {
+  padding: 0 4px;
+}
+
+.product-title {
+  margin: $spacing-16 0 $spacing-32;
+  font-size: 24px;
+
+}
+
+.product-resume__h2 {
+  font-size: 46px;
+  margin: $spacing-32 0;
+}
+
+.meli-supra:before {
+  content: '.';
+}
+
+.product-resume__button {
+  font-size: 20px;
+  border-radius: 4px;
+  background: $meli-blue;
+  padding: 20px;
+
+  border: 0;
+  color: $meli-white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.description__h3 {
+  padding: $spacing-32;
+  font-size: 28px;
+
+}
+
+.description__p {
+  font-size: $spacing-16;
+  padding-bottom: $spacing-32;
+  color: $meli-dark-gray;
+}
+
+.item-price {
+  font-size: 46px;
+  color: #000;
+  font-weight: 400;
+  margin: 0 0 32px 0;
+  text-align: start;
+}
+
+.item-buy-button {
+  background-color: #3483fa;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 24px;
+  text-align: center;
+  width: auto;
+  -webkit-font-smoothing: antialiased;
+  line-height: 0;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.item-add-cart {
+  background-color: rgba(65, 137, 230, .15);
+  border-color: transparent;
+  color: #3483fa;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 600;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 24px;
+  text-align: center;
+  width: auto;
+  -webkit-font-smoothing: antialiased;
+  line-height: 0;
+  margin-top: 8px;
+  width: 100%;
+}
